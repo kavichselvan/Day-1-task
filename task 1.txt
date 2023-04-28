@@ -1,6 +1,6 @@
-Question:
+Question 1:
 
-Write a blog on Difference between HTTP1.1 vs HTTP2
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
 
 Answer:
 
@@ -30,8 +30,21 @@ Conclusion
 
 HTTP/1.1 and HTTP/2 are both important versions of the HTTP protocol. While HTTP/1.1 has been the backbone of the web for over two decades, HTTP/2 offers several improvements that make it a faster and more efficient protocol. As the web continues to evolve, it is likely that HTTP/2 will become the standard protocol for web communication.
 
+Question 2:
 
+2.Write a blog about objects and its internal representation in Javascript
 
+Answer:
 
+In Javascript, objects are one of the fundamental data types. They are used to represent a collection of related data and functionality in a structured manner. In this blog, we will explore the internal representation of objects in Javascript.
 
+An object in Javascript is an unordered collection of properties, where each property is a key-value pair. The keys are always strings, and the values can be any Javascript data type, including other objects. Properties can be added, removed, and modified dynamically at runtime.
+
+The internal representation of an object in Javascript is based on the concept of a dictionary or a hash table. When an object is created, a hash table is created under the hood to store its properties. The hash table uses the keys of the properties as the index, and the values of the properties are stored at those indices.
+
+When you access a property of an object, Javascript internally performs a hash table lookup to find the value associated with that property. The time complexity of this operation is O(1), which means that accessing a property of an object is a very efficient operation.
+
+Javascript also has a concept called prototypes, which allows objects to inherit properties and functionality from other objects. When you access a property of an object, and that property is not present in the object itself, Javascript will look for that property in the object's prototype chain. The prototype chain is a linked list of objects, where each object has a reference to its prototype object.
+
+In conclusion, objects in Javascript are implemented using hash tables, which provide efficient access to properties. The prototype chain allows objects to inherit properties and functionality from other objects, making Javascript a powerful and flexible programming language. Understanding the internal representation of objects is essential for writing efficient and effective Javascript code.
 
